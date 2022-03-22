@@ -1,0 +1,17 @@
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+.backgroundContainer {
+    background: linear-gradient( darken($PrimaryColor, 10%) 50%, $TertiaryColor--Black,);
+    width: 500px;
+    height: 900px;
+
+}

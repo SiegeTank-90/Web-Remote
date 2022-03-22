@@ -1,0 +1,73 @@
+@use "sass:color";
+@import "animate.css";
+
+.selectDeviceContainter {
+  display: inline-block;
+  width: 232px;
+  height: 46px;
+  background: linear-gradient(#0a3e90,#00369b);
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid scale-color($TertiaryColor--White, $alpha: -59%);
+}
+
+.selectDeviceContainterActive {
+  display: inline-block;
+  width: 232px;
+  height: 46px;
+  background: $SecondaryColor;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid scale-color($TertiaryColor--White, $alpha: -59%);
+}
+
+.dropdownText {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin: 15px 20px 15px 46px;
+}
+.dropdownTextItem {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin: 5px 20px 5px 10px;
+}
+.dropdownBackgroundLight {
+  background-color: lighten($SecondaryColor, 15%);
+}
+.dropdownBackgroundLighter {
+  background-color: lighten($SecondaryColor, 20%);
+}
+.dropdownBackgroundLightest {
+  background-color: lighten($SecondaryColor, 25%);
+}
+
+.dropdownTextStop {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.chromeCastMenuItem {
+  padding: 13px 20px 13px 46px;
+  border: 1px solid scale-color($TertiaryColor--Black, $alpha: -90%);
+}
+
+.caretDownSelectDevice {
+  margin: 1px;
+}
+
+.endDeviceControl {
+  background-color: $SecondaryColor;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px 10px 5px 25px;
+}
+.stopIcon {
+  margin-right: 5px;
+}

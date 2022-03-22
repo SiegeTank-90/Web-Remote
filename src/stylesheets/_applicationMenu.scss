@@ -1,0 +1,77 @@
+.ApplicationsMenu {
+  position: absolute;
+  z-index: 97;
+  display: inline-block;
+}
+
+.AppMenuButton {
+  background-color: $TertiaryColor--Black;
+  color: $SecondaryColor--Dark;
+  letter-spacing: .25rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 100%;
+  left: 75%;
+ }
+
+.AppMenuItem {
+  display: inline-block;
+  min-width: 60px;
+  min-height: 60px;
+  max-width: 60px;
+  max-height: 60px;
+  margin: 5px;
+  background-color: $SecondaryColor--Light;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px 12px;
+}
+
+.AppMenuGridContainer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 0.1fr 0.15fr 0.5fr 0.15fr 0.1fr 0;
+  grid-template-rows: 10% 10% 10% 0;
+  max-height: 50px;
+  position: absolute;
+  top: 70%;
+  z-index: 99;
+  
+
+}
+.AppMenuButtonSvg {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+}
+.AppMenuButtonLottie {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+.grid-item1 {
+  grid-column: 3;
+  grid-row: 3;
+  margin: 15px;
+}
+.grid-item2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.grid-item3 {
+  grid-column: 4;
+  grid-row: 1;
+}
+.grid-item4 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.grid-item5 {
+  grid-column: 5;
+  grid-row: 1;
+}

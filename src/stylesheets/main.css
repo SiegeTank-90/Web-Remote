@@ -1,0 +1,482 @@
+@import "animate.css";
+/* Theme Wide */
+/*WCI BRAND COLORS */
+/*Hotel Brand Color*/
+/*Body Structures */
+@import "animate.css";
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.backgroundContainer {
+  background: linear-gradient(#06396d 50%, #022140);
+  width: 500px;
+  height: 900px;
+}
+
+.Layout {
+  padding: 10% 10%;
+  height: 90%;
+  position: relative;
+}
+
+.ApplicationMenuButtonContainer {
+  top: 75%;
+  position: absolute;
+  z-index: 95;
+}
+
+.ChannelButtonContainer {
+  position: absolute;
+  top: 73.5%;
+  left: 70%;
+  z-index: 96;
+}
+
+.VolumeButtonContainer {
+  position: absolute;
+  top: 73.5%;
+  left: 10%;
+  z-index: 96;
+}
+
+.NavButtonContainer {
+  display: inline-block;
+  margin: 10% 5%;
+  position: absolute;
+  z-index: 97;
+}
+
+.SettingMenuContainer {
+  position: absolute;
+  z-index: 98;
+  width: 500px;
+  height: 900px;
+  backdrop-filter: blur(10px) brightness(123%);
+}
+
+.LogoContainer {
+  display: absolute;
+  margin: 0 20%;
+  z-index: 1;
+}
+
+.Logo {
+  margin: 2.5% 12.5%;
+}
+
+/*Componenets*/
+.SettingsMenuBackground {
+  position: absolute;
+  z-index: 98;
+  width: 92.5%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: white;
+  border: 2.5px solid #d9d9d9;
+  opacity: 25%;
+  box-shadow: 0 8px 6px;
+}
+
+.SettingFeatureContainer {
+  margin-top: 15%;
+}
+
+.SettingsMenuForeground {
+  padding: 15% 5%;
+  position: absolute;
+  z-index: 99;
+  width: 85%;
+}
+
+.profileImg {
+  width: 25%;
+  margin: 0 10% 0 0;
+}
+
+.settingMessage {
+  margin: 0;
+  text-align: end;
+}
+
+.featureName {
+  display: inline-block;
+  padding-right: 2.5%;
+}
+
+.featureIcon {
+  display: inline-block;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.toggler {
+  display: inline-block;
+  padding-left: 2.5%;
+}
+
+.greeting {
+  color: #022140;
+}
+
+.message {
+  color: #f37226;
+}
+
+.name {
+  color: #713f0d;
+}
+
+.MIDaccount {
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+}
+
+.SettingMenuCloseIcon {
+  margin: 10% 0;
+}
+
+.SettingWelcomeMessage {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+}
+
+.SettingMenuCloseIcon {
+  position: relative;
+  opacity: 100%;
+  box-shadow: none;
+}
+
+.selectDeviceContainter {
+  display: inline-block;
+  width: 232px;
+  height: 46px;
+  background: linear-gradient(#0a3e90, #00369b);
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.41);
+}
+
+.selectDeviceContainterActive {
+  display: inline-block;
+  width: 232px;
+  height: 46px;
+  background: #f37226;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.41);
+}
+
+.dropdownText {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin: 15px 20px 15px 46px;
+}
+
+.dropdownTextItem {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin: 5px 20px 5px 10px;
+}
+
+.dropdownBackgroundLight {
+  background-color: #f7a16e;
+}
+
+.dropdownBackgroundLighter {
+  background-color: #f8b187;
+}
+
+.dropdownBackgroundLightest {
+  background-color: #fac19f;
+}
+
+.dropdownTextStop {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.chromeCastMenuItem {
+  padding: 13px 20px 13px 46px;
+  border: 1px solid rgba(2, 33, 64, 0.1);
+}
+
+.caretDownSelectDevice {
+  margin: 1px;
+}
+
+.endDeviceControl {
+  background-color: #f37226;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px 10px 5px 25px;
+}
+
+.stopIcon {
+  margin-right: 5px;
+}
+
+.ButtonLabel {
+  margin: 0;
+  z-index: 66;
+  position: absolute;
+  text-align: center;
+  left: 35%;
+  bottom: 5%;
+  color: #f37226;
+}
+
+.FontUp {
+  animation-name: GrowUp;
+  animation-duration: 0.2s;
+  animation-direction: forwards;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.FontDwn {
+  animation-name: GrowDwn;
+  animation-duration: 0.2s;
+  animation-direction: forwards;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes GrowUp {
+  from {
+    left: 40%;
+    bottom: 5%;
+    font-size: 12px;
+  }
+  to {
+    left: 35%;
+    bottom: 15%;
+    font-size: 16px;
+  }
+}
+@keyframes GrowDwn {
+  from {
+    left: 40%;
+    bottom: 5%;
+    font-size: 12px;
+  }
+  to {
+    left: 35%;
+    bottom: -10%;
+    font-size: 16px;
+  }
+}
+.upDownButton {
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+  position: absolute;
+  z-index: 97;
+}
+
+.upButton {
+  text-align: center;
+  margin: auto;
+  width: 80px;
+  height: 84px;
+  background-color: #08529e;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border: 2px solid #022140;
+}
+
+.upArrow {
+  margin-top: 25px;
+}
+
+.arrow_animateUp {
+  animation-name: ArrowUpAnm;
+  animation-duration: 0.2s;
+  animation-direction: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ArrowUpAnm {
+  from {
+    width: 15px;
+  }
+  to {
+    width: 25px;
+  }
+}
+.dwnArrow {
+  margin-top: 50px;
+  width: 15px;
+}
+
+.arrow_animateDwn {
+  animation-name: ArrowDwnAnm;
+  animation-duration: 0.2s;
+  animation-direction: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ArrowDwnAnm {
+  from {
+    width: 15px;
+  }
+  to {
+    width: 25px;
+  }
+}
+.dwnButton {
+  text-align: center;
+  margin: auto;
+  width: 80px;
+  height: 84px;
+  background-color: #08529e;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border: 2px solid #022140;
+}
+
+.colorChangeDwn {
+  animation-name: colorChangeDwn;
+  animation-duration: 0.2s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.colorChangeDwnRev {
+  animation-name: colorChangeDwn;
+  animation-duration: 0.2s;
+  animation-direction: reverse;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.colorChangeUp {
+  animation-name: colorChangeUp;
+  animation-duration: 0.2s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.colorChangeUpRev {
+  animation-name: colorChangeUp;
+  animation-duration: 0.2s;
+  animation-direction: reverse;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes colorChangeDwn {
+  from {
+    background-color: #08529e;
+  }
+  to {
+    background-color: #5389c1;
+  }
+}
+@keyframes colorChangeUp {
+  from {
+    background-color: #08529e;
+  }
+  to {
+    background-color: #f8ac7f;
+  }
+}
+.ApplicationsMenu {
+  position: absolute;
+  z-index: 97;
+  display: inline-block;
+}
+
+.AppMenuButton {
+  background-color: #022140;
+  color: #ff4f00;
+  letter-spacing: 0.25rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 100%;
+  left: 75%;
+}
+
+.AppMenuItem {
+  display: inline-block;
+  min-width: 60px;
+  min-height: 60px;
+  max-width: 60px;
+  max-height: 60px;
+  margin: 5px;
+  background-color: #f8ac7f;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px 12px;
+}
+
+.AppMenuGridContainer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 0.1fr 0.15fr 0.5fr 0.15fr 0.1fr 0;
+  grid-template-rows: 10% 10% 10% 0;
+  max-height: 50px;
+  position: absolute;
+  top: 70%;
+  z-index: 99;
+}
+
+.AppMenuButtonSvg {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.AppMenuButtonLottie {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.grid-item1 {
+  grid-column: 3;
+  grid-row: 3;
+  margin: 15px;
+}
+
+.grid-item2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.grid-item3 {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.grid-item4 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.grid-item5 {
+  grid-column: 5;
+  grid-row: 1;
+}
+
+/*# sourceMappingURL=main.css.map */

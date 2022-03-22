@@ -1,0 +1,185 @@
+
+
+
+
+.ButtonLabel {
+    margin: 0;
+    z-index: 66;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    bottom: 5%;
+    color: $SecondaryColor ;
+}
+.FontUp {
+   
+    animation-name: GrowUp; 
+    animation-duration:  .2s;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+.FontDwn {
+    animation-name: GrowDwn; 
+    animation-duration:  .2s;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+
+ @keyframes GrowUp {
+    from {
+        left: 40%;
+        bottom: 5%;
+        font-size: 12px;
+    }
+    to {
+        left: 35%;
+        bottom: 15%;
+        font-size: 16px;
+    }
+ }
+
+
+@keyframes GrowDwn {
+   from {
+       left: 40%;
+       bottom: 5%;
+       font-size: 12px;
+   }
+   to {
+       left: 35%;
+       bottom: -10%;
+       font-size: 16px;
+   }
+}
+
+
+
+.upDownButton {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    position: absolute;
+    z-index: 97;
+}
+
+.upButton {
+
+text-align: center;
+margin: auto;
+width: 80px;
+height: 84px;
+background-color: $PrimaryColor;
+border-top-left-radius: 100%;
+border-top-right-radius: 100%;
+border: 2px solid $TertiaryColor--Black;
+}
+
+.upArrow {
+margin-top: 25px;    
+}
+.arrow_animateUp{
+    animation-name: ArrowUpAnm; 
+    animation-duration:  .2s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ArrowUpAnm {
+    from {
+        width: 15px;
+    }
+    to {
+        width: 25px;
+    }
+    
+}
+
+.dwnArrow{
+margin-top: 50px;
+width: 15px;
+}
+
+.arrow_animateDwn {
+    animation-name: ArrowDwnAnm ;
+    animation-duration:  .2s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ArrowDwnAnm {
+    from {
+        width: 15px;
+    }
+    to {
+        width: 25px;
+    }
+    
+}
+
+.dwnButton {
+
+text-align: center;
+margin: auto;
+width: 80px;
+height: 84px;
+background-color: $PrimaryColor;
+border-bottom-left-radius: 100%;
+border-bottom-right-radius: 100%;
+border: 2px solid $TertiaryColor--Black;
+    
+}
+
+.colorChangeDwn {
+    animation-name: colorChangeDwn ;
+    animation-duration:  .2s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.colorChangeDwnRev {
+    animation-name: colorChangeDwn ;
+    animation-duration:  .2s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.colorChangeUp {
+    animation-name: colorChangeUp ;
+    animation-duration:  .2s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.colorChangeUpRev {
+    animation-name: colorChangeUp ;
+    animation-duration:  .2s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorChangeDwn {
+    from {
+        background-color: $PrimaryColor;
+    }
+    to {
+        background-color: $PrimaryColor--Light;
+    }
+}
+
+@keyframes colorChangeUp {
+    from {
+        background-color: $PrimaryColor;
+    }
+    to {
+        background-color: $SecondaryColor--Light;
+    }
+}

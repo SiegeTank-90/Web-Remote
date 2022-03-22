@@ -1,0 +1,98 @@
+{
+  "devices": [
+    {
+      "name": "Living Room",
+      "id": 1
+    },
+    {
+      "name": "Bedroom",
+      "id": 2
+    },
+    {
+      "name": "Bedroom 2",
+      "id": 3
+    },
+    {
+      "name": "Bedroom 3",
+      "id": 4
+    }
+  ],
+  "user": {
+    "message": "Valued Guest",
+    "name": "Aman Giri"
+  },
+  "settingFeatures": [
+    {
+      "featureName": "Closed Caption",
+      "icon": "/images/closedcaptionIcon.svg",
+      "toggler": "on"
+    },
+    {
+      "featureName": "Change Input",
+      "icon": "/images/inputIcon.svg",
+      "toggler": "off"
+    },
+    {
+      "featureName": "Change Device",
+      "icon": "/images/ChangeDeviceIcon.svg",
+      "toggler": "off"
+    },
+    {
+      "featureName": "End Device Control",
+      "icon": "/images/stopCircle-black.svg",
+      "toggler": "off"
+    },
+    {
+      "featureName": "Show Grid",
+      "icon": "/images/showgridIcon.svg",
+      "toggler": "off"
+    },
+    {
+      "featureName": "Show HeatMap",
+      "icon": "/images/showheatmapIcon.svg",
+      "toggler": "off"
+    },
+    {
+      "featureName": "Help",
+      "icon": "/images/helpIcon.svg",
+      "toggler": "off"
+    }
+  ],
+  "Applications": [
+    {
+      "name": "netflix",
+      "src": {
+        "lottie": "netflix",
+        "svg": "/images/lottie/Netflix-Logo.wine.svg"
+      }
+    },
+    {
+      "name": "bluetooth",
+      "src": {
+        "lottie": "bluetooth",
+        "svg": "/images/lottie/bluetooth-svgrepo-com.svg"
+      }
+    },
+    {
+      "name": "youtube",
+      "src": {
+        "lottie": "youtube",
+        "svg": "/images/lottie/youtube-svgrepo-com.svg"
+      }
+    },
+    {
+      "name": "prime",
+      "src": {
+        "lottie": "prime",
+        "svg": "/images/lottie/amazon-prime-seeklogo.com.svg"
+      }
+    },
+    {
+      "name": "cast",
+      "src": {
+        "lottie": "cast",
+        "svg": "/images/lottie/cast-icon-chromecast.svg"
+      }
+    }
+  ]
+}

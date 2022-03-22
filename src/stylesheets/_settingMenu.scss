@@ -1,0 +1,81 @@
+
+.SettingsMenuBackground{
+    position: absolute;
+    z-index: 98;
+    width: 92.5%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: $TertiaryColor--White;
+    border: 2.5px solid darken($TertiaryColor--White, 15%);
+    opacity: 25%;
+    box-shadow: 0 8px 6px;
+}
+
+.SettingFeatureContainer{
+    margin-top: 15% ;
+
+}
+.SettingsMenuForeground{
+
+   padding: 15% 5%;
+   position: absolute;
+   z-index: 99;
+   width: 85%;
+}
+
+.profileImg {
+    width: 25%;
+    margin: 0 10% 0 0;
+}
+
+.settingMessage {
+    margin: 0;
+    text-align: end;
+}
+
+.featureName {
+    display: inline-block;
+    padding-right: 2.5%;
+}
+.featureIcon {
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle
+}
+
+.toggler {
+    display: inline-block;
+    padding-left: 2.5%;
+}
+.greeting {
+   color: $TertiaryColor--Black;
+}
+.message {
+    color: $SecondaryColor;
+}
+.name {
+    color: $HotelPrimaryColor;
+}
+
+.MIDaccount {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+
+.SettingMenuCloseIcon{
+    margin: 10% 0; 
+}
+.SettingWelcomeMessage{
+    display: inline-block;
+    margin: 0;   
+    vertical-align: top;
+  
+}
+
+
+.SettingMenuCloseIcon {
+    position: relative;
+    opacity: 100%;
+    box-shadow: none;
+}

@@ -1,0 +1,47 @@
+
+.Layout {
+    padding: 10% 10%;
+    height: 90%;
+    position: relative;
+}
+
+.ApplicationMenuButtonContainer {
+    top: 75%;
+    position: absolute;
+    z-index: 95;
+}
+.ChannelButtonContainer {
+    position: absolute;
+    top: 73.5%;
+    left: 70%;
+    z-index: 96;
+}
+
+.VolumeButtonContainer {
+    position: absolute;
+    top: 73.5%;
+    left: 10%;
+    z-index: 96;
+}
+
+.NavButtonContainer {
+    display: inline-block;
+    margin: 10% 5%;
+    position: absolute;
+    z-index: 97;
+}
+.SettingMenuContainer {
+    position: absolute;
+    z-index: 98;
+    width: 500px;
+    height: 900px;
+    backdrop-filter: blur(10px) brightness(123%);
+ }
+.LogoContainer {
+    display: absolute;
+    margin: 0 20%;
+    z-index: 1;
+}
+.Logo {
+    margin: 2.5% 12.5%;
+}
