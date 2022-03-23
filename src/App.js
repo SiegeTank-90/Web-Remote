@@ -36,7 +36,7 @@ function App() {
           </div>
           <div className="AppMenuGridContainer">{AppMenu}</div>
           <div className="LogoContainer">
-            <img className="Logo" src="/images/logo.svg"></img>
+            <img className="Logo" src="images/logo.svg"></img>
             <SelectDeviceDropdown devices={devices} />
           </div>
           <div className="VolumeButtonContainer">

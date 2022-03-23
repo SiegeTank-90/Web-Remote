@@ -22,10 +22,10 @@ function SettingMenu(props) {
       <div className="SettingsMenuBackground animate__animated animate__slideInLeft "></div>
       <div className="SettingsMenuForeground animate__animated animate__slideInLeft">
         <div className="SettingMenuCloseIcon">
-          <img onClick={props.Toggle} src="/images/close-icon.svg"></img>
+          <img onClick={props.Toggle} src="images/close-icon.svg"></img>
         </div>
         <div className="MIDaccount">
-          <img className="profileImg" src="/images/profileimg.svg"></img>
+          <img className="profileImg" src="images/profileimg.svg"></img>
           <div className="SettingWelcomeMessage">
             <h2 className="settingMessage greeting">WELCOME</h2>
             <h2 className="settingMessage message">{props.user.message}</h2>

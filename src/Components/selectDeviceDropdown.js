@@ -20,7 +20,7 @@ function SelectDeviceDropdown(props) {
     <li key={element.id}
       className={"chromeCastMenuItem " + colorpicker()}
       >
-      <img src="/images/chromecastIcon.svg"></img>
+      <img src="images/chromecastIcon.svg"></img>
       <h1 className={"dropdownTextItem "}>{element.name}</h1>
     </li>
   ));
@@ -35,7 +35,7 @@ function SelectDeviceDropdown(props) {
       <img
         className="caretDownSelectDevice"
         alt="caretdown"
-        src="/images/caretDown.svg"
+        src="images/caretDown.svg"
       ></img>
     </div>
   );
@@ -50,7 +50,7 @@ function SelectDeviceDropdown(props) {
         <img
           className="caretDownSelectDevice"
           alt="caretdown"
-          src="/images/caretDown.svg"
+          src="images/caretDown.svg"
         ></img>
       </div>
       <ul>{DevicesMenuItems}</ul>
@@ -59,7 +59,7 @@ function SelectDeviceDropdown(props) {
         <img
           className="stopIcon"
           alt="stopComcast"
-          src="/images/stopcircle.svg"
+          src="images/stopcircle.svg"
         ></img>
         <h2 className="dropdownTextStop">END DEVICE CONTROL</h2>
       </div>
