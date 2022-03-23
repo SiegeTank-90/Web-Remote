@@ -1,0 +1,7 @@
+<svg id="MDI_map" data-name="MDI / map" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Boundary" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="16" height="16" stroke="none"/>
+    <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
+  </g>
+  <path id="Path_map" data-name="Path / map" d="M9.667,11.889,6.333,10.717V4.111L9.667,5.283M12.722,3h-.089L9.667,4.167,6.333,3,3.2,4.056a.28.28,0,0,0-.2.267v8.4A.278.278,0,0,0,3.278,13a.169.169,0,0,0,.089-.017l2.967-1.15L9.667,13,12.8,11.944a.3.3,0,0,0,.2-.267v-8.4A.278.278,0,0,0,12.722,3Z"/>
+</svg>
