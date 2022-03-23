@@ -34,7 +34,7 @@
     },
     {
       "featureName": "Change Device",
-      "icon": "images/ChangeDeviceIcon.svg",
+      "icon": "images/changedeviceIcon.svg",
       "toggler": "off"
     },
     {

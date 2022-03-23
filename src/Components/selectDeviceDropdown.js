@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-let i = -1;
+let i = 0;
 
 function colorpicker() {
   i++;
@@ -59,7 +59,7 @@ function SelectDeviceDropdown(props) {
         <img
           className="stopIcon"
           alt="stopComcast"
-          src="images/stopcircle.svg"
+          src="images/stopCircle.svg"
         ></img>
         <h2 className="dropdownTextStop">END DEVICE CONTROL</h2>
       </div>
