@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import Youtube from "../lottie/youtubeLottie.json";
 import BlueTooth from "../lottie/bluetoothLottie.json";
 import Netflix from "../lottie/netflixLottie.json";
-import Cast from "../lottie/castLottie.json";
+import Guide from "../lottie/guideLottie.json";
 import Prime from "../lottie/primeLottie.json";
 
 function AppMenuButton(props) {
@@ -22,11 +22,10 @@ function AppMenuButton(props) {
     if (props.lottie == "prime") {
       LottieName = Prime;
     }
-    if (props.lottie == "cast") {
-      LottieName = Cast;
+    if (props.lottie == "guide") {
+      LottieName = Guide;
     }
 
-    
     return (
       <div
         className={

@@ -21,7 +21,7 @@ function ApplicationsMenu(props) {
         </button>
       );
       if (totalApps.length == 2 || totalApps.length == 4) {
-        props.setAppMenu(
+        props.setAppMenu( 
           props.apps.map((element, index) => (
             <AppMenuItem
               key={index}

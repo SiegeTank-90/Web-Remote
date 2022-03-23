@@ -60,6 +60,13 @@
   ],
   "Applications": [
     {
+      "name": "guide",
+      "src": {
+        "lottie": "guide",
+        "svg": "/images/lottie/cast-icon-chromecast.svg"
+      }
+    },
+    {
       "name": "netflix",
       "src": {
         "lottie": "netflix",
@@ -85,13 +92,6 @@
       "src": {
         "lottie": "prime",
         "svg": "/images/lottie/amazon-prime-seeklogo.com.svg"
-      }
-    },
-    {
-      "name": "cast",
-      "src": {
-        "lottie": "cast",
-        "svg": "/images/lottie/cast-icon-chromecast.svg"
       }
     }
   ]
