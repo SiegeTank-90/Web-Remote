@@ -24,37 +24,37 @@
   "settingFeatures": [
     {
       "featureName": "Closed Caption",
-      "icon": "/images/closedcaptionIcon.svg",
+      "icon": "images/closedcaptionIcon.svg",
       "toggler": "on"
     },
     {
       "featureName": "Change Input",
-      "icon": "/images/inputIcon.svg",
+      "icon": "images/inputIcon.svg",
       "toggler": "off"
     },
     {
       "featureName": "Change Device",
-      "icon": "/images/ChangeDeviceIcon.svg",
+      "icon": "images/ChangeDeviceIcon.svg",
       "toggler": "off"
     },
     {
       "featureName": "End Device Control",
-      "icon": "/images/stopCircle-black.svg",
+      "icon": "images/stopCircle-black.svg",
       "toggler": "off"
     },
     {
       "featureName": "Show Grid",
-      "icon": "/images/showgridIcon.svg",
+      "icon": "images/showgridIcon.svg",
       "toggler": "off"
     },
     {
       "featureName": "Show HeatMap",
-      "icon": "/images/showheatmapIcon.svg",
+      "icon": "images/showheatmapIcon.svg",
       "toggler": "off"
     },
     {
       "featureName": "Help",
-      "icon": "/images/helpIcon.svg",
+      "icon": "images/helpIcon.svg",
       "toggler": "off"
     }
   ],
