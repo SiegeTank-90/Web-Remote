@@ -5,11 +5,10 @@ function SettingMenu(props) {
     
 
 
-
-
     const [SettingsFeatureList, setSettingsFeatureList] = useState(
         props.settingFeatures.map((feature) => (
            <SettingsFeatureItem
+            key={feature.featureName}
             name={feature.featureName}
             icon={feature.icon}
             toggler={feature.toggler}

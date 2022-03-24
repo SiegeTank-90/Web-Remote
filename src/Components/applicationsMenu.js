@@ -25,6 +25,7 @@ function ApplicationsMenu(props) {
           props.apps.map((element, index) => (
             <AppMenuItem
               key={index}
+              link={element.link}
               itemNumber={index + 2}
               lottie={element.src.lottie}
               src={element.src.svg}
@@ -36,6 +37,7 @@ function ApplicationsMenu(props) {
           props.apps.map((element, index) => (
             <AppMenuItem
               key={index}
+              link={element.link}
               itemNumber={index + 1}
               lottie={element.src.lottie}
               src={element.src.svg}

@@ -13,15 +13,26 @@ li {
   list-style: none;
 }
 
-.backgroundContainer {
+.backgroundContainerRemote {
   background: linear-gradient(#06396d 50%, #022140);
   width: 500px;
   height: 900px;
 }
 
-.Layout {
+.backgroundContainerGuide {
+  background: #d6c3b8;
+  width: 500px;
+  height: 900px;
+}
+
+.RemoteLayout {
   padding: 10% 10%;
   height: 90%;
+  position: relative;
+}
+
+.NavGuideLayout {
+  padding: 5% 5%;
   position: relative;
 }
 
@@ -36,6 +47,23 @@ li {
   top: 73.5%;
   left: 70%;
   z-index: 96;
+}
+
+.GuideTVDemoContainer {
+  width: 100%;
+  height: 25%;
+}
+
+.GuideGridContainer {
+  width: 100%;
+  height: 60%;
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.GuideGridContainer::-webkit-scrollbar {
+  display: none;
 }
 
 .VolumeButtonContainer {
@@ -476,6 +504,43 @@ li {
 .grid-item5 {
   grid-column: 5;
   grid-row: 1;
+}
+
+.GuideChannel {
+  background: #08529e;
+  border-top: 1px solid white;
+  color: white;
+  text-align: left;
+}
+
+.FavIcon {
+  padding: 1% 0;
+  display: inline-block;
+  width: 10%;
+}
+
+.ChannelIcon {
+  padding: 1% 0;
+  display: inline-block;
+  width: 15%;
+}
+
+.ShowContent {
+  padding: 1% 0;
+  display: inline-block;
+  width: 55%;
+  overflow: hidden;
+}
+
+.PlayState {
+  display: inline-block;
+  background-color: #405682;
+  width: 20%;
+  height: 100%;
+}
+
+.PlayStateIcon {
+  padding: 5%;
 }
 
 /*# sourceMappingURL=main.css.map */
