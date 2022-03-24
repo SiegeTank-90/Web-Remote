@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Routes >
-         <Route path="/" index element={<RemotePage />}></Route>
-         <Route path="guide" element={<GuidePage />}></Route>
+         <Route path="/Web-Remote" index element={<RemotePage />}></Route>
+         <Route path="/Web-Remote/Guide" element={<GuidePage />}></Route>
        </Routes>
     </div>
   );
