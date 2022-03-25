@@ -51,12 +51,12 @@ li {
 
 .GuideTVDemoContainer {
   width: 100%;
-  height: 25%;
+  min-height: 25%;
 }
 
 .GuideGridContainer {
   width: 100%;
-  height: 60%;
+  height: 50%;
   overflow: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -513,34 +513,40 @@ li {
   text-align: left;
 }
 
-.FavIcon {
-  padding: 1% 0;
+.FavIconContainer {
   display: inline-block;
-  width: 10%;
+  padding: 2.5%;
 }
 
-.ChannelIcon {
-  padding: 1% 0;
+.ChannelIconContainer {
   display: inline-block;
   width: 15%;
 }
 
+.ChannelIcon {
+  text-align: center;
+}
+
 .ShowContent {
-  padding: 1% 0;
   display: inline-block;
-  width: 55%;
+  width: 54%;
   overflow: hidden;
 }
 
 .PlayState {
   display: inline-block;
   background-color: #405682;
-  width: 20%;
+  width: 15%;
   height: 100%;
 }
 
 .PlayStateIcon {
   padding: 5%;
+}
+
+.demoImage {
+  box-shadow: 8px 8px 24px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

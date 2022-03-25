@@ -3,7 +3,12 @@ import React from "react";
 function GuideAdvertisement(props) {
 
     return (
-        <h3> Hello Guide Advertisement</h3>
+       <div className="GuideAdvertisement">
+           <h3 className="GuideAdTitle">{props.title}</h3>
+           <div className="GuideAdImg"><img src={props.img}></img></div>
+           <h4 className="GuideAdContent">{props.content}</h4>
+
+       </div>
     )
 }
 

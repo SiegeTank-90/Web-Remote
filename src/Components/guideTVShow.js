@@ -4,7 +4,7 @@ function GuideTVShow(props) {
 
     return (
     <div className="GuideTVDemoContainer">
-        <img alt="demo Image" src = {props.channel}></img>
+        <img className="demoImage" alt="Demo Image" src = {props.channel}></img>
     </div>
     )
 

@@ -7,26 +7,51 @@ import SettingsMenuButton from "../Components/navigationMenu.js";
 import GuideTVShow from "../Components/guideTVShow.js";
 import data from "../testData.json";
 
-const { devices, user, settingFeatures, Applications, TVGuide } = data;
+const {
+  devices,
+  user,
+  settingFeatures,
+  Applications,
+  TVGuide,
+  Advertisements
+} = data;
 
 function GuidePage() {
   const [SettingMenuState, setSettingMenuState] = useState("");
   const [ChannelGrid, setChannelGrid] = useState("");
-  const [DemoImage, setDemoImage] = useState("")
+  const [DemoImage, setDemoImage] = useState("");
 
   useEffect(() => {
-    MakeAGrid()
-  }, [])
+    MakeAGrid();
+  }, []);
 
   function MakeAGrid() {
-      let TempGrid = [];
+    let TempGrid = [];
     for (let i = 0; i < TVGuide.length; i++) {
       if (i % 10 != 0) {
-        TempGrid.push(<ChannelGuideChannel channel={TVGuide[i].channel} icon={TVGuide[i].icon} content={TVGuide[i].schedule.timestampA.content}  />);
+        TempGrid.push(
+          <ChannelGuideChannel
+            channel={TVGuide[i].channel}
+            icon={TVGuide[i].icon}
+            content={TVGuide[i].schedule.timestampA.content}
+          />
+        );
       }
       if (i % 10 == 0) {
-        TempGrid.push(<GuideAdvertisement />);
-        TempGrid.push(<ChannelGuideChannel channel={TVGuide[i].channel} icon={TVGuide[i].icon} content={TVGuide[i].schedule.timestampA.content}  />);
+        TempGrid.push(
+          <GuideAdvertisement
+            img={Advertisements.guide.img}
+            title={Advertisements.guide.title}
+            content={Advertisements.guide.content}
+          />
+        );
+        TempGrid.push(
+          <ChannelGuideChannel
+            channel={TVGuide[i].channel}
+            icon={TVGuide[i].icon}
+            content={TVGuide[i].schedule.timestampA.content}
+          />
+        );
       }
     }
     setChannelGrid(TempGrid);
@@ -55,9 +80,7 @@ function GuidePage() {
         </div>
       </div>{" "}
       <GuideTVShow channel="images/guide/demoimage/mando.svg" />
-      <div className="GuideGridContainer">
-        {ChannelGrid}
-      </div>
+      <div className="GuideGridContainer">{ChannelGrid}</div>
     </div>
   );
 }

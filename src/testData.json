@@ -154,6 +154,445 @@
           "DemoImage": "images/guide/demoimage/raya.svg"
         }
       }
+    },
+    {
+      "channel": "ABC",
+      "icon": "images/guide/abcLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Community",
+          "DemoImage": "images/guide/demoimage/community.svg"
+        },
+        "timestampB": {
+          "content": "U.S. Olympic Team Trails",
+          "DemoImage": "images/guide/demoimage/track.svg"
+        },
+        "timestampC": {
+          "content": "Handmaids Tale",
+          "DemoImage": "images/guide/demoimage/handmaidtail.svg"
+        }
+      }
+    },
+    {
+      "channel": "CBS",
+      "icon": "images/guide/cbsLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Family Guy",
+          "DemoImage": "images/guide/demoimage/familyGuy.svg"
+        },
+        "timestampB": {
+          "content": "Game of Thrones",
+          "DemoImage": "images/guide/demoimage/gotDemo.svg"
+        },
+        "timestampC": {
+          "content": "Main Event",
+          "DemoImage": "images/guide/demoimage/mainEvent.svg"
+        }
+      }
+    },
+    {
+      "channel": "FOX",
+      "icon": "images/guide/foxLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Mandalorian",
+          "DemoImage": "images/guide/demoimage/mando.svg"
+        },
+        "timestampB": {
+          "content": "Futurama",
+          "DemoImage": "images/guide/demoimage/futurama.svg"
+        },
+        "timestampC": {
+          "content": "Raya, The Last Dragon",
+          "DemoImage": "images/guide/demoimage/raya.svg"
+        }
+      }
+    },
+    {
+      "channel": "ABC",
+      "icon": "images/guide/abcLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Community",
+          "DemoImage": "images/guide/demoimage/community.svg"
+        },
+        "timestampB": {
+          "content": "U.S. Olympic Team Trails",
+          "DemoImage": "images/guide/demoimage/track.svg"
+        },
+        "timestampC": {
+          "content": "Handmaids Tale",
+          "DemoImage": "images/guide/demoimage/handmaidtail.svg"
+        }
+      }
+    },
+    {
+      "channel": "CBS",
+      "icon": "images/guide/cbsLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Family Guy",
+          "DemoImage": "images/guide/demoimage/familyGuy.svg"
+        },
+        "timestampB": {
+          "content": "Game of Thrones",
+          "DemoImage": "images/guide/demoimage/gotDemo.svg"
+        },
+        "timestampC": {
+          "content": "Main Event",
+          "DemoImage": "images/guide/demoimage/mainEvent.svg"
+        }
+      }
+    },
+    {
+      "channel": "FOX",
+      "icon": "images/guide/foxLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Mandalorian",
+          "DemoImage": "images/guide/demoimage/mando.svg"
+        },
+        "timestampB": {
+          "content": "Futurama",
+          "DemoImage": "images/guide/demoimage/futurama.svg"
+        },
+        "timestampC": {
+          "content": "Raya, The Last Dragon",
+          "DemoImage": "images/guide/demoimage/raya.svg"
+        }
+      }
+    },
+    {
+      "channel": "ABC",
+      "icon": "images/guide/abcLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Community",
+          "DemoImage": "images/guide/demoimage/community.svg"
+        },
+        "timestampB": {
+          "content": "U.S. Olympic Team Trails",
+          "DemoImage": "images/guide/demoimage/track.svg"
+        },
+        "timestampC": {
+          "content": "Handmaids Tale",
+          "DemoImage": "images/guide/demoimage/handmaidtail.svg"
+        }
+      }
+    },
+    {
+      "channel": "CBS",
+      "icon": "images/guide/cbsLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Family Guy",
+          "DemoImage": "images/guide/demoimage/familyGuy.svg"
+        },
+        "timestampB": {
+          "content": "Game of Thrones",
+          "DemoImage": "images/guide/demoimage/gotDemo.svg"
+        },
+        "timestampC": {
+          "content": "Main Event",
+          "DemoImage": "images/guide/demoimage/mainEvent.svg"
+        }
+      }
+    },
+    {
+      "channel": "FOX",
+      "icon": "images/guide/foxLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Mandalorian",
+          "DemoImage": "images/guide/demoimage/mando.svg"
+        },
+        "timestampB": {
+          "content": "Futurama",
+          "DemoImage": "images/guide/demoimage/futurama.svg"
+        },
+        "timestampC": {
+          "content": "Raya, The Last Dragon",
+          "DemoImage": "images/guide/demoimage/raya.svg"
+        }
+      }
+    },
+    {
+      "channel": "ABC",
+      "icon": "images/guide/abcLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Community",
+          "DemoImage": "images/guide/demoimage/community.svg"
+        },
+        "timestampB": {
+          "content": "U.S. Olympic Team Trails",
+          "DemoImage": "images/guide/demoimage/track.svg"
+        },
+        "timestampC": {
+          "content": "Handmaids Tale",
+          "DemoImage": "images/guide/demoimage/handmaidtail.svg"
+        }
+      }
+    },
+    {
+      "channel": "CBS",
+      "icon": "images/guide/cbsLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Family Guy",
+          "DemoImage": "images/guide/demoimage/familyGuy.svg"
+        },
+        "timestampB": {
+          "content": "Game of Thrones",
+          "DemoImage": "images/guide/demoimage/gotDemo.svg"
+        },
+        "timestampC": {
+          "content": "Main Event",
+          "DemoImage": "images/guide/demoimage/mainEvent.svg"
+        }
+      }
+    },
+    {
+      "channel": "FOX",
+      "icon": "images/guide/foxLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Mandalorian",
+          "DemoImage": "images/guide/demoimage/mando.svg"
+        },
+        "timestampB": {
+          "content": "Futurama",
+          "DemoImage": "images/guide/demoimage/futurama.svg"
+        },
+        "timestampC": {
+          "content": "Raya, The Last Dragon",
+          "DemoImage": "images/guide/demoimage/raya.svg"
+        }
+      }
+    },
+    {
+      "channel": "ABC",
+      "icon": "images/guide/abcLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Community",
+          "DemoImage": "images/guide/demoimage/community.svg"
+        },
+        "timestampB": {
+          "content": "U.S. Olympic Team Trails",
+          "DemoImage": "images/guide/demoimage/track.svg"
+        },
+        "timestampC": {
+          "content": "Handmaids Tale",
+          "DemoImage": "images/guide/demoimage/handmaidtail.svg"
+        }
+      }
+    },
+    {
+      "channel": "CBS",
+      "icon": "images/guide/cbsLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Family Guy",
+          "DemoImage": "images/guide/demoimage/familyGuy.svg"
+        },
+        "timestampB": {
+          "content": "Game of Thrones",
+          "DemoImage": "images/guide/demoimage/gotDemo.svg"
+        },
+        "timestampC": {
+          "content": "Main Event",
+          "DemoImage": "images/guide/demoimage/mainEvent.svg"
+        }
+      }
+    },
+    {
+      "channel": "FOX",
+      "icon": "images/guide/foxLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Mandalorian",
+          "DemoImage": "images/guide/demoimage/mando.svg"
+        },
+        "timestampB": {
+          "content": "Futurama",
+          "DemoImage": "images/guide/demoimage/futurama.svg"
+        },
+        "timestampC": {
+          "content": "Raya, The Last Dragon",
+          "DemoImage": "images/guide/demoimage/raya.svg"
+        }
+      }
+    },
+    {
+      "channel": "ABC",
+      "icon": "images/guide/abcLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Community",
+          "DemoImage": "images/guide/demoimage/community.svg"
+        },
+        "timestampB": {
+          "content": "U.S. Olympic Team Trails",
+          "DemoImage": "images/guide/demoimage/track.svg"
+        },
+        "timestampC": {
+          "content": "Handmaids Tale",
+          "DemoImage": "images/guide/demoimage/handmaidtail.svg"
+        }
+      }
+    },
+    {
+      "channel": "CBS",
+      "icon": "images/guide/cbsLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Family Guy",
+          "DemoImage": "images/guide/demoimage/familyGuy.svg"
+        },
+        "timestampB": {
+          "content": "Game of Thrones",
+          "DemoImage": "images/guide/demoimage/gotDemo.svg"
+        },
+        "timestampC": {
+          "content": "Main Event",
+          "DemoImage": "images/guide/demoimage/mainEvent.svg"
+        }
+      }
+    },
+    {
+      "channel": "FOX",
+      "icon": "images/guide/foxLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Mandalorian",
+          "DemoImage": "images/guide/demoimage/mando.svg"
+        },
+        "timestampB": {
+          "content": "Futurama",
+          "DemoImage": "images/guide/demoimage/futurama.svg"
+        },
+        "timestampC": {
+          "content": "Raya, The Last Dragon",
+          "DemoImage": "images/guide/demoimage/raya.svg"
+        }
+      }
+    },
+    {
+      "channel": "ABC",
+      "icon": "images/guide/abcLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Community",
+          "DemoImage": "images/guide/demoimage/community.svg"
+        },
+        "timestampB": {
+          "content": "U.S. Olympic Team Trails",
+          "DemoImage": "images/guide/demoimage/track.svg"
+        },
+        "timestampC": {
+          "content": "Handmaids Tale",
+          "DemoImage": "images/guide/demoimage/handmaidtail.svg"
+        }
+      }
+    },
+    {
+      "channel": "CBS",
+      "icon": "images/guide/cbsLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Family Guy",
+          "DemoImage": "images/guide/demoimage/familyGuy.svg"
+        },
+        "timestampB": {
+          "content": "Game of Thrones",
+          "DemoImage": "images/guide/demoimage/gotDemo.svg"
+        },
+        "timestampC": {
+          "content": "Main Event",
+          "DemoImage": "images/guide/demoimage/mainEvent.svg"
+        }
+      }
+    },
+    {
+      "channel": "FOX",
+      "icon": "images/guide/foxLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Mandalorian",
+          "DemoImage": "images/guide/demoimage/mando.svg"
+        },
+        "timestampB": {
+          "content": "Futurama",
+          "DemoImage": "images/guide/demoimage/futurama.svg"
+        },
+        "timestampC": {
+          "content": "Raya, The Last Dragon",
+          "DemoImage": "images/guide/demoimage/raya.svg"
+        }
+      }
+    },
+    {
+      "channel": "ABC",
+      "icon": "images/guide/abcLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Community",
+          "DemoImage": "images/guide/demoimage/community.svg"
+        },
+        "timestampB": {
+          "content": "U.S. Olympic Team Trails",
+          "DemoImage": "images/guide/demoimage/track.svg"
+        },
+        "timestampC": {
+          "content": "Handmaids Tale",
+          "DemoImage": "images/guide/demoimage/handmaidtail.svg"
+        }
+      }
+    },
+    {
+      "channel": "CBS",
+      "icon": "images/guide/cbsLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Family Guy",
+          "DemoImage": "images/guide/demoimage/familyGuy.svg"
+        },
+        "timestampB": {
+          "content": "Game of Thrones",
+          "DemoImage": "images/guide/demoimage/gotDemo.svg"
+        },
+        "timestampC": {
+          "content": "Main Event",
+          "DemoImage": "images/guide/demoimage/mainEvent.svg"
+        }
+      }
+    },
+    {
+      "channel": "FOX",
+      "icon": "images/guide/foxLogo.svg",
+      "schedule": {
+        "timestampA": {
+          "content": "Mandalorian",
+          "DemoImage": "images/guide/demoimage/mando.svg"
+        },
+        "timestampB": {
+          "content": "Futurama",
+          "DemoImage": "images/guide/demoimage/futurama.svg"
+        },
+        "timestampC": {
+          "content": "Raya, The Last Dragon",
+          "DemoImage": "images/guide/demoimage/raya.svg"
+        }
+      }
     }
-  ]
+  ],
+  "Advertisements": {
+    "guide": {
+      "img": "images/guide/sjairporthotelicon.png",
+      "title": "Guest Services",
+      "content": "Check Out Or Hotel Amazing Offers"
+    }
+  }
 }

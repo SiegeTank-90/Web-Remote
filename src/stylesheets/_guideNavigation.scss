@@ -4,29 +4,34 @@
   color: $TertiaryColor--White;
   text-align: left;
 }
-.FavIcon {
-  padding: 1% 0;
-  display: inline-block;
-  width: 10%;
+.FavIconContainer {
+    display: inline-block;
+    padding: 2.5%;
 }
-.ChannelIcon {
-  padding: 1% 0;
+.ChannelIconContainer {
   display: inline-block;
   width: 15%;
 }
+.ChannelIcon {
+  text-align: center;
+}
 .ShowContent {
-  padding: 1% 0;
   display: inline-block;
-  width: 55%;
+  width: 54%;
   overflow: hidden;
 }
 .PlayState {
   display: inline-block;
   background-color: $PrimaryColor--Dark;
-  width: 20%;
+  width: 15%;
   height: 100%;
 }
 
 .PlayStateIcon {
-    padding: 5%;
+  padding: 5%;
+}
+
+.demoImage {
+  box-shadow: 8px 8px 24px;
+  width: 100%;
 }
