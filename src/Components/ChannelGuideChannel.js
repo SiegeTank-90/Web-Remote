@@ -1,10 +1,24 @@
-import React from "react";
+import react from "react";
+import React, { useState } from "react";
+import ReactDom from "react-dom";
+import { useEffect } from "react/cjs/react.production.min";
 
 function ChannelGuideChannel(props) {
+  function ToggleActiveState() {
+    props.setDemoImage(props.DemoImage)
+    props.newActiveChannel(props.indexNum)
+   }
   return (
-    <div className="GuideChannel" onClick={() => console.log("Clicked")}>
+    <div
+      className={
+        props.indexNum == props.ActiveChannel
+          ? "GuideChannel-Active"
+          : "GuideChannel"
+      }
+      onClick={() => ToggleActiveState()}
+    >
       <div className="FavIconContainer">
-          <img className="FavIcon" src="images/iconHeart.svg"></img>
+        <img className="FavIcon" src="images/iconHeart.svg"></img>
       </div>
       <div className="ChannelIconContainer">
         <img
@@ -15,7 +29,11 @@ function ChannelGuideChannel(props) {
       </div>
       <div className="ShowContent">{props.content}</div>
       <div className="PlayState">
-        <div className="PlayStateIcon">PlayState OFF</div>
+        <div className="PlayStateIcon">
+          {props.indexNum == props.ActiveChannel
+            ? "PlayState ON"
+            : "PlayState Off"}
+        </div>
       </div>
     </div>
   );

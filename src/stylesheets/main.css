@@ -513,6 +513,44 @@ li {
   text-align: left;
 }
 
+.GuideChannel-Active {
+  background: #5389c1;
+  border-top: 1px solid white;
+  color: #022140;
+  text-align: left;
+}
+
+.GuideAdvertisement {
+  background: #5389c1;
+  border-top: 1px solid white;
+  color: #022140;
+  text-align: left;
+}
+
+.GuideAdTitle {
+  display: inline-block;
+  width: 25%;
+  padding: 0 2.5%;
+}
+
+.GuideAdImg {
+  display: inline-block;
+  width: 25%;
+  vertical-align: bottom;
+}
+
+.GuideAdImg img {
+  display: inline-block;
+  width: 50%;
+  height: 25%;
+}
+
+.GuideAdContent {
+  display: inline-block;
+  width: 40%;
+  padding: 0 2.5%;
+}
+
 .FavIconContainer {
   display: inline-block;
   padding: 2.5%;

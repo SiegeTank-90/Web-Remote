@@ -4,9 +4,43 @@
   color: $TertiaryColor--White;
   text-align: left;
 }
+
+.GuideChannel-Active {
+  background: $PrimaryColor--Light;
+  border-top: 1px solid $TertiaryColor--White;
+  color: $TertiaryColor--Black;
+  text-align: left;
+}
+
+.GuideAdvertisement {
+  background: $PrimaryColor--Light;
+  border-top: 1px solid $TertiaryColor--White;
+  color: $TertiaryColor--Black;
+  text-align: left;
+}
+.GuideAdTitle {
+  display: inline-block;
+  width: 25%;
+  padding: 0 2.5%;
+}
+.GuideAdImg {
+  display: inline-block;
+  width: 25%;
+  vertical-align: bottom;
+ }
+ .GuideAdImg img {
+  display: inline-block;
+  width: 50%;
+  height: 25%;
+ }
+.GuideAdContent {
+  display: inline-block;
+  width: 40%;
+  padding: 0 2.5%;
+}
 .FavIconContainer {
-    display: inline-block;
-    padding: 2.5%;
+  display: inline-block;
+  padding: 2.5%;
 }
 .ChannelIconContainer {
   display: inline-block;
@@ -34,4 +68,4 @@
 .demoImage {
   box-shadow: 8px 8px 24px;
   width: 100%;
-}
+ }
