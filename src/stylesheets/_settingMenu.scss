@@ -65,14 +65,24 @@
 
 .SettingMenuCloseIcon{
     margin: 10% 0; 
+    
 }
+.SettingMenuOpenIcon{
+    margin: 5%;
+    
+    position: relative;
+    display: inline-block;
+}
+.HamburgerIcon {
+    padding-bottom: 33px;
+}
+
 .SettingWelcomeMessage{
     display: inline-block;
     margin: 0;   
     vertical-align: top;
   
 }
-
 
 .SettingMenuCloseIcon {
     position: relative;

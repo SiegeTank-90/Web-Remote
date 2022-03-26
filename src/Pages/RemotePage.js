@@ -17,7 +17,8 @@ function RemotePage() {
       <div className="backgroundContainerRemote">
         {SettingMenuState}
         <div className="RemoteLayout">
-          <div className="NavButtonContainer">
+        <div className="RemoteDeviceContainer">
+          <div className="NavButtonContainerRemote">
             <SettingsMenuButton
               Toggle={() =>
                 setSettingMenuState(
@@ -34,6 +35,7 @@ function RemotePage() {
           <div className="LogoContainer">
             <img className="Logo" src="images/logo.svg"></img>
             <SelectDeviceDropdown devices={devices} />
+          </div>
           </div>
           <div className="VolumeButtonContainer">
             <UpDownButton labelName="VOL" />

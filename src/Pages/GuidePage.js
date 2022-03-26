@@ -8,6 +8,9 @@ import GuideTimeChanger from "../Components/GuideTimeChanger.js";
 import GuideTVShow from "../Components/guideTVShow.js";
 import data from "../testData.json";
 
+let timeHours = 3
+let timeMin = 30
+
 const {
   devices,
   user,
@@ -22,24 +25,55 @@ function GuidePage() {
   const [ActiveChannel, setActiveChannel] = useState(null);
   const [ChannelGrid, setChannelGrid] = useState("");
   const [TimeStamp, setTimeStamp] = useState(0);
+  const [Time, setTime] = useState(timeHours + ":" + timeMin);
   const [DemoImage, setDemoImage] = useState(
     "images/guide/demoImage/mando.svg"
   );
 
   useEffect(() => {
     MakeAGrid();
-  }, [ActiveChannel, TimeStamp]);
+  }, [ActiveChannel, TimeStamp,]);
 
   function ForwardTime() {
-      if (TimeStamp == 2) {
-        return console.log("No No No");
-     } else setTimeStamp(TimeStamp + 1);
-  }
+    if (TimeStamp == 2) {
+      return console.log("No No No");
+    } else {
+
+      setTimeStamp(TimeStamp + 1);
+      timeMin = timeMin +30
+      
+      if (timeMin >= 60) {
+        timeMin = 0 
+       
+        timeHours++        
+      } 
+      setTime(timeHours + " : " + timeMin )
+      if (timeMin == 0) {
+        timeMin = "00"
+          setTime(timeHours + " : " + timeMin )
+          timeMin = 0
+    }
+     
+  }}
 
   function BackwardTime() {
     if (TimeStamp != 0) {
-      return setTimeStamp(TimeStamp - 1);
-     } else console.log("No No No")
+      setTimeStamp(TimeStamp - 1); 
+      timeMin = timeMin +30
+
+      if (timeMin >= 60) {
+        
+         timeMin = 0 
+          timeHours--       
+      } 
+   
+      setTime(timeHours + " : " + timeMin )
+      if (timeMin == 0) {
+        timeMin = "00"
+          setTime(timeHours + " : " + timeMin )
+          timeMin = 0
+      }
+    } else console.log("No No No");
   }
 
   function MakeAGrid() {
@@ -87,30 +121,33 @@ function GuidePage() {
     <div className="backgroundContainerGuide">
       {SettingMenuState}
       <div className="NavGuideLayout">
-        <div className="NavButtonContainer">
-          <SettingsMenuButton
-            Toggle={() =>
-              setSettingMenuState(
-                <SettingsMenu
-                  user={user}
-                  settingFeatures={settingFeatures}
-                  Toggle={() => setSettingMenuState("")}
-                />
-              )
-            }
-          />
+        <div className="NavGuideContainer">
+          <div className="NavButtonContainer">
+            <SettingsMenuButton
+              Toggle={() =>
+                setSettingMenuState(
+                  <SettingsMenu
+                    user={user}
+                    settingFeatures={settingFeatures}
+                    Toggle={() => setSettingMenuState("")}
+                  />
+                )
+              }
+            />
+            <div className="LogoContainer">
+              <img className="Logo" src="images/logo.svg"></img>
+              <SelectDeviceDropdown devices={devices} />
+            </div>
+          </div>
         </div>
-        <div className="LogoContainer">
-          <img className="Logo" src="images/logo.svg"></img>
-          <SelectDeviceDropdown devices={devices} />
-        </div>
-      </div>{" "}
+      </div>
       <GuideTVShow channel={DemoImage} />
-      <div id="Guide" className="GuideGridContainer">
-        <GuideTimeChanger
-          setTimeStampNext={() => ForwardTime()}
-          setTimeStampPrev={() => BackwardTime()}
+      <GuideTimeChanger
+          time={Time}
+          setTimeStampNext={() => BackwardTime()}
+          setTimeStampPrev={() => ForwardTime()}
         />
+      <div id="Guide" className="GuideGridContainer">
         {ChannelGrid}
       </div>
     </div>

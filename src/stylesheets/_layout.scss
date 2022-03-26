@@ -5,8 +5,15 @@
     position: relative;
 }
 .NavGuideLayout {
+    margin: 5% 10%;
+    position: absolute;
+    z-index: 97;
+}
+
+.NavGuideContainer {
     padding: 5% 5%;
-    position: relative;
+    position: absolute;
+    z-index: 97;
 }
 
 .ApplicationMenuButtonContainer {
@@ -24,12 +31,14 @@
 .GuideTVDemoContainer {
     width: 100%;
     min-height: 25%;
+    padding-top: 33%;
 
 }
 
 .GuideGridContainer {
     width: 100%;
     height: 50%;
+    position: relative;
     overflow: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -47,8 +56,15 @@
 
 .NavButtonContainer {
     display: inline-block;
-    margin: 10% 5%;
-    position: absolute;
+    margin: 5% 0;
+    min-width: 300px;
+    position: relative;
+    z-index: 97;
+}
+.NavButtonContainerRemote {
+    display: inline-block;
+    margin: 5% 5%;
+    position: relative;
     z-index: 97;
 }
 .SettingMenuContainer {
@@ -59,10 +75,19 @@
     backdrop-filter: blur(10px) brightness(123%);
  }
 .LogoContainer {
-    display: absolute;
-    margin: 0 20%;
-    z-index: 1;
+    display: relative;
+    display: inline-block;
+    z-index: 96;
 }
 .Logo {
     margin: 2.5% 12.5%;
 }
+
+.RemoteDeviceContainer {
+    margin: 5%;
+}
+
+.timeChangerContainer{
+    margin-top: 2%;
+  
+  }

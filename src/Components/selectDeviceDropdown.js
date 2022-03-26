@@ -4,8 +4,7 @@ let i = 0;
 
 function colorpicker() {
   i++;
-
-  if (i == 1) {
+    if (i == 1) {
     return "dropdownBackgroundLight";
   } else if (i == 2) {
     return "dropdownBackgroundLighter";

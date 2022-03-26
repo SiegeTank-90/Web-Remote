@@ -8,6 +8,7 @@ function ChannelGuideChannel(props) {
     props.setDemoImage(props.DemoImage)
     props.newActiveChannel(props.indexNum)
    }
+   
   return (
     <div
       className={

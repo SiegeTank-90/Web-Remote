@@ -2,8 +2,8 @@ import React from "react"
 
 function NavMenuButton(props) {
     return (
-        <div>
-            <img onClick={props.Toggle} src="images/hamburger.svg"></img>
+        <div className="SettingMenuOpenIcon">
+            <img className="HamburgerIcon" onClick={props.Toggle} src="images/hamburger.svg"></img>
         </div>
     )
 }

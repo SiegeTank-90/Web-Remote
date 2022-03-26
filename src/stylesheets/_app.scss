@@ -13,6 +13,7 @@ li {
     background: linear-gradient( darken($PrimaryColor, 10%) 50%, $TertiaryColor--Black,);
     width: 500px;
     height: 900px;
+    position: relative;
 
 }
 
@@ -20,5 +21,6 @@ li {
     background: rgba(214,195,184, 1.0);
     width: 500px;
     height: 900px;
+    position: relative;
 
 }

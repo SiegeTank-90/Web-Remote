@@ -263,7 +263,7 @@
     }, {
       "channel": "ABC",
       "icon": "images/guide/abcLogo.svg",
-      "schedule": [
+      "schedule" : [
         {
           "content": "Community",
           "DemoImage": "images/guide/demoimage/community.svg"
