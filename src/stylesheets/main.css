@@ -520,6 +520,12 @@ li {
   text-align: left;
 }
 
+.GuidePlayButtonOn {
+  margin: 0;
+  padding: 0.25rem;
+  padding-left: 0.35rem;
+}
+
 .GuideAdvertisement {
   background: #5389c1;
   border-top: 1px solid white;
@@ -556,6 +562,10 @@ li {
   padding: 2.5%;
 }
 
+.FavIcon {
+  padding-bottom: 0.33rem;
+}
+
 .ChannelIconContainer {
   display: inline-block;
   width: 15%;
@@ -567,8 +577,9 @@ li {
 
 .ShowContent {
   display: inline-block;
-  width: 54%;
+  width: 59%;
   overflow: hidden;
+  padding: 0.45rem;
 }
 
 .PlayState {
@@ -580,6 +591,9 @@ li {
 
 .PlayStateIcon {
   padding: 5%;
+  margin: 0.5rem;
+  text-align: center;
+  color: #f8ac7f;
 }
 
 .demoImage {

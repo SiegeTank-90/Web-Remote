@@ -30,9 +30,9 @@ function ChannelGuideChannel(props) {
       <div className="ShowContent">{props.content}</div>
       <div className="PlayState">
         <div className="PlayStateIcon">
-          {props.indexNum == props.ActiveChannel
-            ? "PlayState ON"
-            : "PlayState Off"}
+          {(props.indexNum == props.ActiveChannel)
+            ? <h5 className="GuidePlayButtonOn">On Now</h5>
+            : <img src="images/guide/guidePlayButton.svg"></img>}
         </div>
       </div>
     </div>

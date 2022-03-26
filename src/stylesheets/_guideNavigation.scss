@@ -11,7 +11,11 @@
   color: $TertiaryColor--Black;
   text-align: left;
 }
-
+.GuidePlayButtonOn{
+  margin: 0;
+  padding: .25rem;
+  padding-left: .35rem;
+}
 .GuideAdvertisement {
   background: $PrimaryColor--Light;
   border-top: 1px solid $TertiaryColor--White;
@@ -42,6 +46,9 @@
   display: inline-block;
   padding: 2.5%;
 }
+.FavIcon {
+  padding-bottom: .33rem ;
+}
 .ChannelIconContainer {
   display: inline-block;
   width: 15%;
@@ -51,8 +58,9 @@
 }
 .ShowContent {
   display: inline-block;
-  width: 54%;
+  width: 59%;
   overflow: hidden;
+  padding: .45rem;
 }
 .PlayState {
   display: inline-block;
@@ -63,6 +71,9 @@
 
 .PlayStateIcon {
   padding: 5%;
+  margin: 0.5rem;
+  text-align: center;
+  color: $SecondaryColor--Light;
 }
 
 .demoImage {

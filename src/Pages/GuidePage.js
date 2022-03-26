@@ -4,6 +4,7 @@ import SettingsMenu from "../Components/settingsMenu";
 import ChannelGuideChannel from "../Components/ChannelGuideChannel";
 import GuideAdvertisement from "../Components/guideAdvertisement";
 import SettingsMenuButton from "../Components/navigationMenu.js";
+import GuideTimeChanger from "../Components/GuideTimeChanger.js";
 import GuideTVShow from "../Components/guideTVShow.js";
 import data from "../testData.json";
 
@@ -13,21 +14,33 @@ const {
   settingFeatures,
   Applications,
   TVGuide,
-  Advertisements
+  Advertisements,
 } = data;
 
 function GuidePage() {
- 
   const [SettingMenuState, setSettingMenuState] = useState("");
   const [ActiveChannel, setActiveChannel] = useState(null);
   const [ChannelGrid, setChannelGrid] = useState("");
+  const [TimeStamp, setTimeStamp] = useState(0);
   const [DemoImage, setDemoImage] = useState(
     "images/guide/demoImage/mando.svg"
   );
 
   useEffect(() => {
     MakeAGrid();
-  }, [ActiveChannel]);
+  }, [ActiveChannel, TimeStamp]);
+
+  function ForwardTime() {
+      if (TimeStamp == 2) {
+        return console.log("No No No");
+     } else setTimeStamp(TimeStamp + 1);
+  }
+
+  function BackwardTime() {
+    if (TimeStamp != 0) {
+      return setTimeStamp(TimeStamp - 1);
+     } else console.log("No No No")
+  }
 
   function MakeAGrid() {
     let TempGrid = [];
@@ -39,8 +52,8 @@ function GuidePage() {
             indexNum={TempGrid.length}
             channel={TVGuide[i].channel}
             icon={TVGuide[i].icon}
-            content={TVGuide[i].schedule.timestampA.content}
-            DemoImage={TVGuide[i].schedule.timestampA.DemoImage}
+            content={TVGuide[i].schedule[TimeStamp].content}
+            DemoImage={TVGuide[i].schedule[TimeStamp].DemoImage}
             setDemoImage={setDemoImage}
             newActiveChannel={setActiveChannel}
           />
@@ -60,8 +73,8 @@ function GuidePage() {
             indexNum={TempGrid.length}
             channel={TVGuide[i].channel}
             icon={TVGuide[i].icon}
-            content={TVGuide[i].schedule.timestampA.content}
-            DemoImage={TVGuide[i].schedule.timestampA.DemoImage}
+            content={TVGuide[i].schedule[TimeStamp].content}
+            DemoImage={TVGuide[i].schedule[TimeStamp].DemoImage}
             setDemoImage={setDemoImage}
             newActiveChannel={setActiveChannel}
           />
@@ -94,6 +107,10 @@ function GuidePage() {
       </div>{" "}
       <GuideTVShow channel={DemoImage} />
       <div id="Guide" className="GuideGridContainer">
+        <GuideTimeChanger
+          setTimeStampNext={() => ForwardTime()}
+          setTimeStampPrev={() => BackwardTime()}
+        />
         {ChannelGrid}
       </div>
     </div>
