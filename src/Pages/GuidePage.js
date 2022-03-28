@@ -62,10 +62,13 @@ function GuidePage() {
       timeMin = timeMin +30
 
       if (timeMin >= 60) {
-        
          timeMin = 0 
-          timeHours--       
+          
       } 
+      if (timeMin == 30) {
+        timeHours--
+      }
+
    
       setTime(timeHours + " : " + timeMin )
       if (timeMin == 0) {

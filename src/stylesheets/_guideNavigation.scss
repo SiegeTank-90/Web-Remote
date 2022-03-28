@@ -9,6 +9,7 @@
   background: $PrimaryColor--Light;
   border-top: 1px solid $TertiaryColor--White;
   color: $TertiaryColor--Black;
+  font-family: Visby-Bold;
   text-align: left;
 }
 .GuidePlayButtonOn{
@@ -20,6 +21,7 @@
   background: $PrimaryColor--Light;
   border-top: 1px solid $TertiaryColor--White;
   color: $TertiaryColor--Black;
+  font-family: Visby-Bold;
   text-align: left;
 }
 .GuideAdTitle {
@@ -73,7 +75,7 @@
   padding: 5%;
   margin: 0.5rem;
   text-align: center;
-  color: $SecondaryColor--Light;
+  color: $SecondaryColor--Dark;
 }
 
 .demoImage {
@@ -104,10 +106,16 @@
   text-align: center;
   color: $SecondaryColor--Light;
   background-color: $TertiaryColor--Black;
+  letter-spacing: .25em;
 }
 .GuideTimeText {
   font-size: 10px;
 }
 .GuideArrowAlign {
   text-align: center;
+}
+
+.playAnimate {
+  padding: 7.5px;
+  position: absolute;
 }

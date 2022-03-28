@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Web-Remote/static/css/main.d392bb0c.css",
-    "main.js": "/Web-Remote/static/js/main.e6893b1b.js",
+    "main.css": "/Web-Remote/static/css/main.74854fd4.css",
+    "main.js": "/Web-Remote/static/js/main.52656d28.js",
+    "static/media/VisbyCF-Heavy.otf": "/Web-Remote/static/media/VisbyCF-Heavy.a5e3166a7bba60e673fa.otf",
+    "static/media/VisbyCF-ExtraBold.otf": "/Web-Remote/static/media/VisbyCF-ExtraBold.51dd8c110490661aaec5.otf",
+    "static/media/VisbyCF-DemiBoldOblique.otf": "/Web-Remote/static/media/VisbyCF-DemiBoldOblique.485a162bf44814c2b564.otf",
     "index.html": "/Web-Remote/index.html",
-    "main.d392bb0c.css.map": "/Web-Remote/static/css/main.d392bb0c.css.map",
-    "main.e6893b1b.js.map": "/Web-Remote/static/js/main.e6893b1b.js.map"
+    "main.74854fd4.css.map": "/Web-Remote/static/css/main.74854fd4.css.map",
+    "main.52656d28.js.map": "/Web-Remote/static/js/main.52656d28.js.map"
   },
   "entrypoints": [
-    "static/css/main.d392bb0c.css",
-    "static/js/main.e6893b1b.js"
+    "static/css/main.74854fd4.css",
+    "static/js/main.52656d28.js"
   ]
 }

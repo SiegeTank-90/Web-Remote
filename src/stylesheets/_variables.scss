@@ -12,4 +12,20 @@ $TertiaryColor--White: rgba(255,255,255, 1.0); //White
 
 /*Hotel Brand Color*/
 
-$HotelPrimaryColor: rgba(113,63,13,1.0)
+$HotelPrimaryColor: rgba(113,63,13,1.0);
+
+//Fonts 
+
+@font-face{
+    font-family: Visby-Oblique;
+    src: url(fonts/VisbyCF-DemiBoldOblique.otf) format( "opentype");
+}
+
+@font-face{
+    font-family: Visby-Bold;
+    src: url(fonts/VisbyCF-ExtraBold.otf) format( "opentype");
+} 
+@font-face{
+    font-family: Visby-Bold;
+    src: url(fonts/VisbyCF-Heavy.otf) format("opentype");
+} 

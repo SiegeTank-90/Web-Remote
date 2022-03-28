@@ -2,8 +2,20 @@
 /* Theme Wide */
 /*WCI BRAND COLORS */
 /*Hotel Brand Color*/
-/*Body Structures */
 @import "animate.css";
+@font-face {
+  font-family: Visby-Oblique;
+  src: url(fonts/VisbyCF-DemiBoldOblique.otf) format("opentype");
+}
+@font-face {
+  font-family: Visby-Bold;
+  src: url(fonts/VisbyCF-ExtraBold.otf) format("opentype");
+}
+@font-face {
+  font-family: Visby-Bold;
+  src: url(fonts/VisbyCF-Heavy.otf) format("opentype");
+}
+/*Body Structures */
 ul {
   margin: 0;
   padding: 0;
@@ -66,7 +78,7 @@ li {
 
 .GuideGridContainer {
   width: 100%;
-  height: 50%;
+  height: 46.25%;
   position: relative;
   overflow: scroll;
   scrollbar-width: none;
@@ -97,6 +109,7 @@ li {
   margin: 5% 5%;
   position: relative;
   z-index: 97;
+  vertical-align: top;
 }
 
 .SettingMenuContainer {
@@ -199,6 +212,7 @@ li {
 
 .SettingMenuOpenIcon {
   margin: 5%;
+  vertical-align: top;
   position: relative;
   display: inline-block;
 }
@@ -220,6 +234,7 @@ li {
 }
 
 .selectDeviceContainter {
+  font-family: Montserrat, sans-serif;
   display: inline-block;
   width: 232px;
   height: 46px;
@@ -554,6 +569,7 @@ li {
   background: #5389c1;
   border-top: 1px solid white;
   color: #022140;
+  font-family: Visby-Bold;
   text-align: left;
 }
 
@@ -567,6 +583,7 @@ li {
   background: #5389c1;
   border-top: 1px solid white;
   color: #022140;
+  font-family: Visby-Bold;
   text-align: left;
 }
 
@@ -630,7 +647,7 @@ li {
   padding: 5%;
   margin: 0.5rem;
   text-align: center;
-  color: #f8ac7f;
+  color: #ff4f00;
 }
 
 .demoImage {
@@ -663,6 +680,7 @@ li {
   text-align: center;
   color: #f8ac7f;
   background-color: #022140;
+  letter-spacing: 0.25em;
 }
 
 .GuideTimeText {
@@ -671,6 +689,11 @@ li {
 
 .GuideArrowAlign {
   text-align: center;
+}
+
+.playAnimate {
+  padding: 7.5px;
+  position: absolute;
 }
 
 /*# sourceMappingURL=main.css.map */

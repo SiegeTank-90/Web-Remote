@@ -4,6 +4,7 @@ import ReactDom from "react-dom";
 import { useEffect } from "react/cjs/react.production.min";
 
 function ChannelGuideChannel(props) {
+ 
   function ToggleActiveState() {
     props.setDemoImage(props.DemoImage)
     props.newActiveChannel(props.indexNum)
@@ -14,7 +15,7 @@ function ChannelGuideChannel(props) {
       className={
         props.indexNum == props.ActiveChannel
           ? "GuideChannel-Active"
-          : "GuideChannel"
+          : "GuideChannel "
       }
       onClick={() => ToggleActiveState()}
     >
@@ -32,8 +33,8 @@ function ChannelGuideChannel(props) {
       <div className="PlayState">
         <div className="PlayStateIcon">
           {(props.indexNum == props.ActiveChannel)
-            ? <h5 className="GuidePlayButtonOn">On Now</h5>
-            : <img src="images/guide/guidePlayButton.svg"></img>}
+            ? <div><img src="images/guide/guidePlayButton.svg" className="playAnimate animate__animated animate__rollOut"></img> <h5 className="GuidePlayButtonOn">On Now</h5></div>
+            : <img src="images/guide/guidePlayButton.svg" className=""></img>}
         </div>
       </div>
     </div>

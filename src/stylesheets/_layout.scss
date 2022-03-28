@@ -37,7 +37,7 @@
 
 .GuideGridContainer {
     width: 100%;
-    height: 50%;
+    height: 46.25%;
     position: relative;
     overflow: scroll;
     scrollbar-width: none;
@@ -60,12 +60,14 @@
     min-width: 300px;
     position: relative;
     z-index: 97;
+   
 }
 .NavButtonContainerRemote {
     display: inline-block;
     margin: 5% 5%;
     position: relative;
     z-index: 97;
+    vertical-align: top;
 }
 .SettingMenuContainer {
     position: absolute;
