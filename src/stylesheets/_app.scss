@@ -11,16 +11,33 @@ li {
 
 .backgroundContainerRemote {
     background: linear-gradient( darken($PrimaryColor, 10%) 50%, $TertiaryColor--Black,);
-    width: 500px;
-    height: 900px;
+    max-width: 500px;
+    height: 100%;
     position: relative;
-
 }
 
 .backgroundContainerGuide {
     background: rgba(214,195,184, 1.0);
-    width: 500px;
-    height: 900px;
+    max-width: 500px;
+    height: 100%;
     position: relative;
 
+}
+
+@media screen and (max-width: 375px) {
+    
+    .backgroundContainerRemote {
+        background: linear-gradient( darken($PrimaryColor, 10%) 50%, $TertiaryColor--Black,);
+        max-width: 375px;
+        height: 100%;
+        position: relative;
+    }
+    
+    .backgroundContainerGuide {
+        background: rgba(214,195,184, 1.0);
+        max-width: 375px;
+        height: 100%;
+        position: relative;
+    
+    }
 }

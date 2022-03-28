@@ -100,3 +100,12 @@
         color: #fff;
         border: 1px solid scale-color($TertiaryColor--White, $alpha: -59%);
       }       
+
+@media screen and (max-width: 375px) {
+    
+}
+
+      .Logo {
+        margin: 2.5% 12.5%;
+        max-width: 150px;
+    }

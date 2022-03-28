@@ -1,15 +1,13 @@
 import react from "react";
 import React, { useState } from "react";
 import ReactDom from "react-dom";
-import { useEffect } from "react/cjs/react.production.min";
 
 function ChannelGuideChannel(props) {
- 
   function ToggleActiveState() {
-    props.setDemoImage(props.DemoImage)
-    props.newActiveChannel(props.indexNum)
-   }
-   
+    props.setDemoImage(props.DemoImage);
+    props.newActiveChannel(props.indexNum);
+  }
+
   return (
     <div
       className={
@@ -20,7 +18,7 @@ function ChannelGuideChannel(props) {
       onClick={() => ToggleActiveState()}
     >
       <div className="FavIconContainer">
-        <img className="FavIcon" src="images/iconHeart.svg"></img>
+        <h5>{props.indexNum}</h5>
       </div>
       <div className="ChannelIconContainer">
         <img
@@ -32,9 +30,17 @@ function ChannelGuideChannel(props) {
       <div className="ShowContent">{props.content}</div>
       <div className="PlayState">
         <div className="PlayStateIcon">
-          {(props.indexNum == props.ActiveChannel)
-            ? <div><img src="images/guide/guidePlayButton.svg" className="playAnimate animate__animated animate__rollOut"></img> <h5 className="GuidePlayButtonOn">On Now</h5></div>
-            : <img src="images/guide/guidePlayButton.svg" className=""></img>}
+          {props.indexNum == props.ActiveChannel ? (
+            <div className="GuidePlayButtonOn">
+              <img
+                src="images/guide/guidePlayButton.svg"
+                className="playAnimate animate__animated animate__rollOut"
+              ></img>{" "}
+              <h5 className="test">On Now</h5>
+            </div>
+          ) : (
+            <img src="images/guide/guidePlayButton.svg" className="playButton"></img>
+          )}
         </div>
       </div>
     </div>

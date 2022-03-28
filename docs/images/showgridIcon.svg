@@ -1,7 +1,0 @@
-<svg id="MDI_grid" data-name="MDI / grid" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <g id="Boundary" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
-    <rect width="16" height="16" stroke="none"/>
-    <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
-  </g>
-  <path id="Path_grid" data-name="Path / grid" d="M6.8,3.2V5.6H9.2V3.2H6.8m3.6,0V5.6h2.4V3.2H10.4m0,3.6V9.2h2.4V6.8H10.4m0,3.6v2.4h2.4V10.4H10.4M9.2,12.8V10.4H6.8v2.4H9.2m-3.6,0V10.4H3.2v2.4H5.6m0-3.6V6.8H3.2V9.2H5.6m0-3.6V3.2H3.2V5.6H5.6M6.8,9.2H9.2V6.8H6.8V9.2M3.2,2h9.6A1.2,1.2,0,0,1,14,3.2v9.6A1.2,1.2,0,0,1,12.8,14H3.2A1.211,1.211,0,0,1,2,12.8V3.2A1.2,1.2,0,0,1,3.2,2Z"/>
-</svg>

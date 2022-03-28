@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100.001" viewBox="0 0 100 100.001">
-  <g id="MDI_account-circle-outline" data-name="MDI / account-circle-outline" transform="translate(-0.831 -0.831)">
-    <g id="Boundary" transform="translate(0.831 0.831)" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
-      <rect width="100" height="100" stroke="none"/>
-      <rect x="0.5" y="0.5" width="99" height="99" fill="none"/>
-    </g>
-    <path id="Path_account-circle-outline" data-name="Path / account-circle-outline" d="M52,2a50,50,0,1,0,50,50A50,50,0,0,0,52,2M27.35,83.4C29.5,78.9,42.6,74.5,52,74.5s22.5,4.4,24.65,8.9a39.627,39.627,0,0,1-49.3,0M83.8,76.15C76.65,67.45,59.3,64.5,52,64.5S27.35,67.45,20.2,76.15A39.64,39.64,0,0,1,12,52a40,40,0,1,1,80,0,39.64,39.64,0,0,1-8.2,24.15M52,22A17.5,17.5,0,1,0,69.5,39.5,17.455,17.455,0,0,0,52,22m0,25a7.5,7.5,0,1,1,7.5-7.5A7.5,7.5,0,0,1,52,47Z" transform="translate(-1.169 -1.169)" fill="#ff4f00"/>
-  </g>
-</svg>

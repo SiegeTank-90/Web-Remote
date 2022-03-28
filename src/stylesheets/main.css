@@ -27,18 +27,33 @@ li {
 
 .backgroundContainerRemote {
   background: linear-gradient(#06396d 50%, #022140);
-  width: 500px;
-  height: 900px;
+  max-width: 500px;
+  height: 100%;
   position: relative;
 }
 
 .backgroundContainerGuide {
   background: #d6c3b8;
-  width: 500px;
-  height: 900px;
+  max-width: 500px;
+  height: 100%;
   position: relative;
 }
 
+@media screen and (max-width: 375px) {
+  .backgroundContainerRemote {
+    background: linear-gradient(#06396d 50%, #022140);
+    max-width: 375px;
+    height: 100%;
+    position: relative;
+  }
+
+  .backgroundContainerGuide {
+    background: #d6c3b8;
+    max-width: 375px;
+    height: 100%;
+    position: relative;
+  }
+}
 .RemoteLayout {
   padding: 10% 10%;
   height: 90%;
@@ -144,6 +159,11 @@ li {
   background: linear-gradient(#0a3e90, #00369b);
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.41);
+}
+
+.Logo {
+  margin: 2.5% 12.5%;
+  max-width: 150px;
 }
 
 /*Componenets*/
@@ -582,7 +602,6 @@ li {
 }
 
 .GuidePlayButtonOn {
-  margin: 0;
   padding: 0.25rem;
   padding-left: 0.35rem;
 }
@@ -621,11 +640,9 @@ li {
 
 .FavIconContainer {
   display: inline-block;
-  padding: 2.5%;
-}
-
-.FavIcon {
-  padding-bottom: 0.33rem;
+  vertical-align: baseline;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .ChannelIconContainer {
@@ -639,9 +656,10 @@ li {
 
 .ShowContent {
   display: inline-block;
-  width: 59%;
+  width: 50%;
   overflow: hidden;
   padding: 0.45rem;
+  vertical-align: baseline;
 }
 
 .PlayState {
@@ -649,13 +667,17 @@ li {
   background-color: #405682;
   width: 15%;
   height: 100%;
+  vertical-align: bottom;
 }
 
 .PlayStateIcon {
   padding: 5%;
-  margin: 0.5rem;
   text-align: center;
   color: #ff4f00;
+}
+
+.playButton {
+  margin: 1rem;
 }
 
 .demoImage {
@@ -720,6 +742,28 @@ li {
   font-size: 15;
   margin: 0;
   padding: 1px 15px 0 15px;
+}
+
+@media screen and (max-width: 375) {
+  .ShowContent {
+    padding: 0;
+    width: 48%;
+  }
+
+  .PlayStateIcon {
+    padding: 2.5%;
+    margin: 0;
+  }
+
+  .GuidePlayButtonOn {
+    margin: 1%;
+    padding: 0.5rem;
+    padding-left: 0.35rem;
+  }
+
+  .test {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

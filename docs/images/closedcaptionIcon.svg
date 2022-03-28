@@ -1,7 +1,0 @@
-<svg id="MDI_closed-caption" data-name="MDI / closed-caption" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <g id="Boundary" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
-    <rect width="16" height="16" stroke="none"/>
-    <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
-  </g>
-  <path id="Path_closed-caption" data-name="Path / closed-caption" d="M13,8.667H12V8.333H10.667v2H12V10h1v.667a.667.667,0,0,1-.667.667h-2a.667.667,0,0,1-.667-.667V8a.667.667,0,0,1,.667-.667h2A.667.667,0,0,1,13,8m-4.667.667h-1V8.333H6v2H7.333V10h1v.667a.667.667,0,0,1-.667.667h-2A.667.667,0,0,1,5,10.667V8a.667.667,0,0,1,.667-.667h2A.667.667,0,0,1,8.333,8m5.333-4H4.333A1.329,1.329,0,0,0,3,5.333v8a1.333,1.333,0,0,0,1.333,1.333h9.333A1.333,1.333,0,0,0,15,13.333v-8A1.333,1.333,0,0,0,13.667,4Z" transform="translate(-1 -1.333)"/>
-</svg>

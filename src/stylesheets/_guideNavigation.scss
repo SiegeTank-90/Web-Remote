@@ -11,12 +11,10 @@
   color: $TertiaryColor--Black;
   font-family: Visby-Bold;
   text-align: left;
-
 }
-.GuidePlayButtonOn{
-  margin: 0;
-  padding: .25rem;
-  padding-left: .35rem;
+.GuidePlayButtonOn {
+  padding: 0.25rem;
+  padding-left: 0.35rem;
 }
 .GuideAdvertisement {
   background: $PrimaryColor--Light;
@@ -34,12 +32,12 @@
   display: inline-block;
   width: 25%;
   vertical-align: bottom;
- }
- .GuideAdImg img {
+}
+.GuideAdImg img {
   display: inline-block;
   width: 50%;
   height: 25%;
- }
+}
 .GuideAdContent {
   display: inline-block;
   width: 40%;
@@ -47,10 +45,9 @@
 }
 .FavIconContainer {
   display: inline-block;
-  padding: 2.5%;
-}
-.FavIcon {
-  padding-bottom: .33rem ;
+  vertical-align: baseline;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .ChannelIconContainer {
   display: inline-block;
@@ -61,38 +58,43 @@
 }
 .ShowContent {
   display: inline-block;
-  width: 59%;
+  width: 50%;
   overflow: hidden;
-  padding: .45rem;
+  padding: 0.45rem;
+  vertical-align: baseline;
 }
 .PlayState {
   display: inline-block;
   background-color: $PrimaryColor--Dark;
   width: 15%;
   height: 100%;
+  vertical-align: bottom;
 }
 
 .PlayStateIcon {
   padding: 5%;
-  margin: 0.5rem;
   text-align: center;
   color: $SecondaryColor--Dark;
+}
+
+.playButton {
+  margin: 1rem;
 }
 
 .demoImage {
   box-shadow: 8px 8px 24px;
   width: 100%;
-  height: 20%
- }
+  height: 20%;
+}
 
- .GuideLeftArrow {
+.GuideLeftArrow {
   display: inline-block;
   width: 10%;
   padding: 1.3%;
   background-color: $TertiaryColor--White;
   text-align: center;
   vertical-align: bottom;
- }
+}
 .GuideRightArrow {
   display: inline-block;
   width: 10%;
@@ -107,7 +109,7 @@
   text-align: center;
   color: $SecondaryColor--Light;
   background-color: $TertiaryColor--Black;
-  letter-spacing: .25em;
+  letter-spacing: 0.25em;
 }
 .GuideTimeText {
   font-size: 10px;
@@ -121,23 +123,43 @@
   position: absolute;
 }
 
-
 .GuideSortButton {
   width: 200px;
   margin: 2.5% 25% 1%;
   padding: 1.5px;
   height: 20px;
-  background: linear-gradient(#0a3e90,#00369b);
+  background: linear-gradient(#0a3e90, #00369b);
   color: #fff;
   border-radius: 2.5px;
   border: 1px solid scale-color($TertiaryColor--White, $alpha: -59%);
 }
 
 .GuideSortTitle {
-display: inline;
-font-size: 15;
- margin: 0;
- padding: 1px 15px 0 15px;
-
+  display: inline;
+  font-size: 15;
+  margin: 0;
+  padding: 1px 15px 0 15px;
 }
 
+@media screen and (max-width: 375) {
+  .ShowContent {
+    padding: 0;
+    width: 48%;
+  }
+
+  .PlayStateIcon {
+    padding: 2.5%;
+    margin: 0;
+  }
+
+  .GuidePlayButtonOn {
+    margin: 1%;
+    padding: 0.5rem;
+    padding-left: 0.35rem;
+  }
+
+  .test {
+    margin: 0;
+
+  }
+}
