@@ -37,7 +37,7 @@
 
 .GuideGridContainer {
     width: 100%;
-    height: 46.25%;
+    height: 41.5%;
     position: relative;
     overflow: scroll;
     scrollbar-width: none;
@@ -91,5 +91,12 @@
 
 .timeChangerContainer{
     margin-top: 2%;
-  
   }
+
+  .button{
+        font-family: Montserrat, sans-serif;
+        display: inline-block;
+         background: linear-gradient(#0a3e90,#00369b);
+        color: #fff;
+        border: 1px solid scale-color($TertiaryColor--White, $alpha: -59%);
+      }       

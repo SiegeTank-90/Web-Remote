@@ -11,6 +11,7 @@
   color: $TertiaryColor--Black;
   font-family: Visby-Bold;
   text-align: left;
+
 }
 .GuidePlayButtonOn{
   margin: 0;
@@ -119,3 +120,24 @@
   padding: 7.5px;
   position: absolute;
 }
+
+
+.GuideSortButton {
+  width: 200px;
+  margin: 2.5% 25% 1%;
+  padding: 1.5px;
+  height: 20px;
+  background: linear-gradient(#0a3e90,#00369b);
+  color: #fff;
+  border-radius: 2.5px;
+  border: 1px solid scale-color($TertiaryColor--White, $alpha: -59%);
+}
+
+.GuideSortTitle {
+display: inline;
+font-size: 15;
+ margin: 0;
+ padding: 1px 15px 0 15px;
+
+}
+

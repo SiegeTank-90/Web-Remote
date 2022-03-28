@@ -33,8 +33,8 @@ function SelectDeviceDropdown(props) {
       <h2 className="dropdownText">SELECT A DEVICE</h2>
       <img
         className="caretDownSelectDevice"
-        alt="caretdown"
-        src="images/caretDown.svg"
+        alt="chromecast"
+        src="images/chromecastIcon.svg"
       ></img>
     </div>
   );
@@ -48,8 +48,8 @@ function SelectDeviceDropdown(props) {
         <h2 className="dropdownText">SELECT A DEVICE</h2>
         <img
           className="caretDownSelectDevice"
-          alt="caretdown"
-          src="images/caretDown.svg"
+          alt="caret up"
+          src="images/caretUp.svg"
         ></img>
       </div>
       <ul>{DevicesMenuItems}</ul>

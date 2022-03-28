@@ -5,6 +5,7 @@ import ChannelGuideChannel from "../Components/ChannelGuideChannel";
 import GuideAdvertisement from "../Components/guideAdvertisement";
 import SettingsMenuButton from "../Components/navigationMenu.js";
 import GuideTimeChanger from "../Components/GuideTimeChanger.js";
+import GuideSorter from "../Components/GuideSorters";
 import GuideTVShow from "../Components/guideTVShow.js";
 import data from "../testData.json";
 
@@ -26,6 +27,7 @@ function GuidePage() {
   const [ChannelGrid, setChannelGrid] = useState("");
   const [TimeStamp, setTimeStamp] = useState(0);
   const [Time, setTime] = useState(timeHours + ":" + timeMin);
+  const [DataLimit, setDataLimit] = useState(false)
   const [DemoImage, setDemoImage] = useState(
     "images/guide/demoImage/mando.svg"
   );
@@ -36,7 +38,7 @@ function GuidePage() {
 
   function ForwardTime() {
     if (TimeStamp == 2) {
-      return console.log("No No No");
+      return setDataLimit(true);
     } else {
 
       setTimeStamp(TimeStamp + 1);
@@ -76,7 +78,7 @@ function GuidePage() {
           setTime(timeHours + " : " + timeMin )
           timeMin = 0
       }
-    } else console.log("No No No");
+    } else setDataLimit(true);
   }
 
   function MakeAGrid() {
@@ -145,8 +147,11 @@ function GuidePage() {
         </div>
       </div>
       <GuideTVShow channel={DemoImage} />
+      <GuideSorter />
       <GuideTimeChanger
           time={Time}
+          OutofData={DataLimit}
+          setOutofData={setDataLimit}
           setTimeStampNext={() => BackwardTime()}
           setTimeStampPrev={() => ForwardTime()}
         />
