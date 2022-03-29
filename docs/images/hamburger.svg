@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.414" height="24" viewBox="0 0 25.414 24">
+  <defs>
+    <filter id="Line_1" x="4" y="1.5" width="18" height="8" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_2" x="0" y="8.5" width="18" height="8" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_3" x="4" y="15.5" width="17" height="8" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="WCI_Open-Close-Icon" data-name="WCI Open-Close-Icon" transform="translate(1.414)">
+    <rect id="Rectangle_175" data-name="Rectangle 175" width="24" height="24" fill="rgba(237,76,76,0)" opacity="0"/>
+    <g transform="matrix(1, 0, 0, 1, -1.41, 0)" filter="url(#Line_1)">
+      <line id="Line_1-2" data-name="Line 1" x2="10" transform="translate(8 3.5)" fill="rgba(0,0,0,0)" stroke="rgba(247,205,180,0.62)" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -1.41, 0)" filter="url(#Line_2)">
+      <line id="Line_2-2" data-name="Line 2" x2="10" transform="translate(4 10.5)" fill="rgba(0,0,0,0)" stroke="rgba(248,172,127,0.73)" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -1.41, 0)" filter="url(#Line_3)">
+      <line id="Line_3-2" data-name="Line 3" x2="9" transform="translate(8 17.5)" fill="rgba(0,0,0,0)" stroke="#f27226" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

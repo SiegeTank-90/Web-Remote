@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Web-Remote/static/css/main.4b60e468.css",
+    "main.js": "/Web-Remote/static/js/main.38d5c1b1.js",
+    "static/media/VisbyCF-Heavy.otf": "/Web-Remote/static/media/VisbyCF-Heavy.a5e3166a7bba60e673fa.otf",
+    "static/media/VisbyCF-ExtraBold.otf": "/Web-Remote/static/media/VisbyCF-ExtraBold.51dd8c110490661aaec5.otf",
+    "static/media/VisbyCF-DemiBoldOblique.otf": "/Web-Remote/static/media/VisbyCF-DemiBoldOblique.485a162bf44814c2b564.otf",
+    "index.html": "/Web-Remote/index.html",
+    "main.4b60e468.css.map": "/Web-Remote/static/css/main.4b60e468.css.map",
+    "main.38d5c1b1.js.map": "/Web-Remote/static/js/main.38d5c1b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b60e468.css",
+    "static/js/main.38d5c1b1.js"
+  ]
+}
